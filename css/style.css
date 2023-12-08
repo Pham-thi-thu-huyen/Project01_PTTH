@@ -57,6 +57,9 @@ header .menu-input {
     padding-left: 18px;
     width: 350px;
 }
+.menu-input:focus {
+    outline: none;
+}
 
 
 header .search-icon {
@@ -143,6 +146,9 @@ header .shoping-cart {
     padding: 0 12px;
     color: aliceblue;
 }
+.menu>li:hover>a {
+    color: lightpink;
+}
 .menu > li:hover .sub-menu {
     visibility: visible;
 }
@@ -151,25 +157,37 @@ header .shoping-cart {
     text-decoration: none;
     color: #fff;
     font-weight: 550;
+    line-height: 44px;
 }
 
 .sub-menu{
     position: absolute;
-    width: 150px;
+    width: 200px;
     border: 1px solid #ccc;
-    padding: 10px 0 10px 20px;
+    padding: 10px 0px;
     visibility: hidden;
     list-style-type: none;
     color: black;
     background-color: white;
+    box-shadow: 0 4px 13px -3px gray;
+    margin-top: -2px;
+    border-radius: 4px;
+    
 }
 .sub-menu ul{
     padding-left: 20px;
 }
 .sub-menu li a{
     font-weight: normal;
-    font-size: 12px;
-    padding: 4px;
+    font-size: 14px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+.sub-menu li:hover a{
+    color: #Ed145b;
+    background-color: #ccc;
 }
 /* content */
 .heading-tag {
@@ -237,6 +255,40 @@ header .shoping-cart {
     display: block;
     line-height: 18px;
     padding-left: 4px ;
+}
+
+/* lien he */
+.contact-wrapper{
+    padding: 20px 20px 0  ;
+    margin-bottom: 20px;
+    border-bottom:  1px dotted rgb(204, 204, 204);
+    padding-bottom: 10px;
+}
+.heading-title{
+    margin: 0px 0px 20px;
+    border-bottom: 1px solid #000;
+    font-size: 14px;  
+}
+.second-title{
+    margin: 0px 0px 15px;
+    border-bottom: 1px dotted rgb(204, 204, 204);
+    font-size: 14px;
+
+}
+.infor{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.address{
+    width: 33.33%;
+}
+.phone-number{
+    width: 33.33%;
+    text-align: center;
+}
+.time{
+    width: 33.33%;
 }
 
 

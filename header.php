@@ -29,17 +29,17 @@
         </header>
         <div class="cover-menu">
             <ul class="menu">
-                <li><i class="fa-solid fa-house"></i></li>
-                <li><a href="">TRANG CHỦ</a></li>
-                <li><a href="">GIỚI THIỆU</a></li>
-                <li><a href="">TIN TỨC</a></li>
-                <li><a href="">LIÊN HỆ</a></li>
-                <li><a href="">SẢN PHẨM</a>
+                <li><a href="index.php"><i class="fa-solid fa-house"></a></i></li>
+                <li><a href="index.php">TRANG CHỦ</a></li>
+                <li><a href="index.php?quanly=gioithieu">GIỚI THIỆU</a></li>
+                <li><a href="index.php?quanly=tintuc">TIN TỨC</a></li>
+                <li><a href="index.php?quanly=lienhe">LIÊN HỆ</a></li>
+                <li><a href="index.php?quanly=sanpham">SẢN PHẨM</a>
                     <ul class="sub-menu">
-                        <li><a href="">Tẩy trang</a></li>
-                        <li><a href="">Mặt nạ</a></li>
-                        <li><a href="">Nước hoa hồng</a></li>
-                        <li><a href="">Sữa dưỡng </a></li>
+                        <li><a href="index.php?quanly=sanpham&sanpham=taytrang">Tẩy trang</a></li>
+                        <li><a href="index.php?quanly=sanpham&sanpham=matna">Mặt nạ</a></li>
+                        <li><a href="index.php?quanly=sanpham&sanpham=nuochoahong">Nước hoa hồng</a></li>
+                        <li><a href="index.php?quanly=sanpham&sanpham=suaduong">Sữa dưỡng </a></li>
                     </ul>
                 </li>
             </ul>

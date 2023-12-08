@@ -1,13 +1,21 @@
+.main {
+    
+}
+
+img {
+    border-radius: 4px;
+}
 .content_products {
     display: flex;
     padding: 16px 4.6875vw;
+    background-color: #ccc;
 }
 .left {
     display: inline-block;
 }
 
 .right {
-    
+    padding-left: 1.5vw;
 }
 .right h1 {
     font-size: 17px;
@@ -29,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 .add-more {
     display: flex;
@@ -43,4 +52,16 @@
 .plus,
 .minus {
     cursor: pointer;
+}
+.add-to-card button {
+    height: 38px;
+    width: 48%;
+    margin-left: 6px;
+    margin-top: 9px;
+    background-color: #1f601f;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }

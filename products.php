@@ -42,6 +42,9 @@
                     <p class="number add-more">1</p>
                     <a class="plus add-more">+</a>
                 </div>
+                <div class="add-to-card">
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
             </div>
         </div>
         <?php
